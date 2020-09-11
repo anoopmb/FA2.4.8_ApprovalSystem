@@ -5,14 +5,14 @@
 //
 
 // Versions used by source/database version compatibility checks. Do not change.
-$db_version = "2.4.1";
+$db_version = "2.4.1.1";
 $src_version = "2.4.8";
 
 // application version - can be overriden in config.php
 $version = isset($SysPrefs->version) ? $SysPrefs->version : $src_version;
 
 //======================================================================
-// Extension packages repository settings 
+// Extension packages repository settings
 //
 // Extensions repository. Can be overriden in config.php
 
